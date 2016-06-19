@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="user.jcoins.steam">
+				<parent>user.jcoins</parent>
+				<showorder>4</showorder>
+			</category>
+		</categories>
+		<options>
+			<option name="jcoins_steam_host">
+				<categoryname>user.jcoins.steam</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>localhost</defaultvalue>
+			</option>
+			<option name="jcoins_steam_user">
+				<categoryname>user.jcoins.steam</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>root</defaultvalue>
+			</option>
+			<option name="jcoins_steam_password">
+				<categoryname>user.jcoins.steam</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue></defaultvalue>
+			</option>
+			<option name="jcoins_steam_database">
+				<categoryname>user.jcoins.steam</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>steam</defaultvalue>
+			</option>
+			<option name="jcoins_steam_port">
+				<categoryname>user.jcoins.steam</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>3306</defaultvalue>
+			</option>
+			<option name="jcoins_steam_exchange">
+				<categoryname>user.jcoins.steam</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.steam.transfer"><![CDATA[Steam-Guthaben]]></item>
+		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.steam.transfer"><![CDATA[Sie haben Guthaben in Steam-Guthaben umgewandelt.]]></item>
+	</category>
+
+	<category name="wcf.jcoins.steamTransfer">
+		<item name="wcf.jcoins.steamTransfer.title"><![CDATA[Steam-Guthaben transferieren]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.jcoins.steam"><![CDATA[Steam]]></item>
+		<item name="wcf.acp.option.jcoins_steam_host"><![CDATA[Datenbank-Host]]></item>
+		<item name="wcf.acp.option.jcoins_steam_user"><![CDATA[Datenbank-Benutzer]]></item>
+		<item name="wcf.acp.option.jcoins_steam_password"><![CDATA[Datenbank-Passwort]]></item>
+		<item name="wcf.acp.option.jcoins_steam_database"><![CDATA[Datenbank-Name]]></item>
+		<item name="wcf.acp.option.jcoins_steam_port"><![CDATA[Datenbank-Port]]></item>
+		<item name="wcf.acp.option.jcoins_steam_exchange"><![CDATA[Austauschrate]]></item>
+	</category>
+</language>
